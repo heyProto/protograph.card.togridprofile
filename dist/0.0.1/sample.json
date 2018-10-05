@@ -1,0 +1,33 @@
+{
+  "title": "Mohit Joshi",
+  "subtitle": "Producer - Design",
+  "img_url": "https://next.pro.to/assets/team/mojo.jpg",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  "platforms": [
+    {
+      "type": "Facebook",
+      "url": "https://www.google.com/"
+    },
+    {
+      "type": "Twitter",
+      "url": "https://www.google.com/"
+    },
+    {
+      "type": "Whatsapp",
+      "url": "https://www.google.com/"
+    },
+    {
+      "type": "Youtube",
+      "url": "https://www.google.com/"
+    },
+    {
+      "type": "Other",
+      "url": "https://www.google.com/"
+    },
+    {
+      "type": "Other",
+      "url": "https://www.google.com/",
+      "icon_url": "https://next.pro.to/assets/social-icons/instagram.png"
+    }
+  ]
+}

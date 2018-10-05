@@ -1,0 +1,90 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "id": "http://example.com/root.json",
+  "type": "object",
+  "properties": {
+   
+        "title": {
+          "id": "/properties/title",
+          "type": "string",
+          "title": "Title",
+          "default": "",
+          "examples": [
+            "Mohit Joshi"
+          ]
+        },
+        "subtitle": {
+          "id": "/properties/subtitle",
+          "type": "string",
+          "title": "Subtitle",
+          "default": "",
+          "examples": [
+            "Producer - Design"
+          ]
+        },
+        "img_url": {
+          "id": "/properties/img_url",
+          "type": "string",
+          "title": "Image Url",
+          "default": "",
+          "examples": [
+            "https://www.google.com/"
+          ]
+        },
+        "description": {
+          "id": "/properties/description",
+          "type": "string",
+          "title": "Description",
+          "default": "",
+          "examples": [
+            "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          ]
+        },
+        "platforms": {
+          "id": "/properties/platforms",
+          "type": "array",
+          "title": "Platforms",
+          "default": [],
+          "items": {
+            "id": "/properties/platforms/items",
+            "type": "object",
+            "title": "Platform",
+            "required": [
+              "type",
+              "url"
+            ],
+            "properties": {
+              "type": {
+                "id": "/properties/platforms/items/properties/type",
+                "type": "string",
+                "title": "Type",
+                "enum": ["Facebook", "Twitter", "Whatsapp", "Instagram", "Youtube", "Other"],
+                "default": "Facebook"
+              },
+              "url": {
+                "id": "/properties/platforms/items/properties/url",
+                "type": "string",
+                "title": "Url",
+                "default": "",
+                "examples": [
+                  "https://www.google.com/"
+                ]
+              },
+              "icon_url": {
+                "id": "/properties/platforms/items/properties/icon_url",
+                "type": "string",
+                "title": "Icon Url",
+                "default": "",
+                "examples": [
+                  "https://next.pro.to/assets/social-icons/instagram.png"
+                ]
+              }
+            }
+          },
+          "minItems": 1
+        }
+      
+    
+  }
+}
